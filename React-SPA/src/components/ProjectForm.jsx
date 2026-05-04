@@ -15,6 +15,7 @@ function ProjectForm({ addProject }){
         setDescription("");
     };
     return (
+        
         <form onSubmit={handleSubmit}>
             <h2>Add Project</h2>
             <h3>Title</h3>

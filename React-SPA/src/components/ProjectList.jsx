@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 function ProjectList({ projects }){
     return(
         <div>
-            <h2>Project List</h2>
+            <h2>Completed Projects</h2>
             {projects.length === 0? (
                 <p>No projects found</p>
             ): (

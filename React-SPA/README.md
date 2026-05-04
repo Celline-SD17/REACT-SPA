@@ -1,16 +1,49 @@
-# React + Vite
+# Personal Project Showcase App
+## Overview
+- This is a React Single Page Application (SPA) that allows users to search and view completed projects, and add new projects dynamically.
+## Setup Instructions
+1. Clone my github repository [Github repository]-([https://github.com/Celline-SD17/REACT-SPA.git])
+- Navigate to the project's directory.
+2. Install necessary dependencies:
+- npm install
+3. Run the development server.
+- npm run dev
+4. Open the url provided in a browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Structure
+ src
 
-Currently, two official plugins are available:
+├── components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+│  ├── SearchBar.jsx
 
-## React Compiler
+│ ├── ProjectForm.jsx
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+│ ├── ProjectList.jsx
 
-## Expanding the ESLint configuration
+│ └── ProjectCard.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+│
+
+├── App.jsx
+
+└── main.jsx
+
+ public
+
+└── projects.json
+## Features
+- Displaying completed projects: it displays a list of projects loaded from a local JSON file.
+- Search Functionality- users can search for projects using their title in real time.
+- Project Form- Allows users to add new projects dynamically without refreshing the page.
+- Dynamic Updates- Newly added projects appear instantly in the project list.
+- Data Fetching- Initial project data is fetched using the Fetch API and useEffect.
+- Component-Based Architecture- Each project area is buily separately using reusable React components.
+- Responsive Design- Layout adapts to different screen sizes.
+## Known Limitations
+- No Persistent Storage: Newly added projects are not saved permanently. Refreshing the page resets data to the original JSON file.
+- No delete Functionality- Users can add projects but cannot modify or remove them.
+## Technologies Used
+- React (Vite)
+- JavaScript
+- CSS

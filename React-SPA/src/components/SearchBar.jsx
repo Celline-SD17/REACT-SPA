@@ -2,9 +2,10 @@ function SearchBar({ searchQuery, setSearchQuery }){
 
     return(
         <div>
+            <h2>Search Project</h2>
             <input 
             type="text" 
-            placeholder="Search projects" 
+            placeholder="Type project name" 
             value={searchQuery} 
             onChange={(e)=>setSearchQuery (e.target.value)}
             />
