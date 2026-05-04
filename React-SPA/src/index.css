@@ -15,20 +15,21 @@ body {
 .addProject{
   padding: 20px;
   margin: 20px 0;
-  background-color: #ffffff;
+  background-color: #cc17b7;
   box-sizing: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .search-area,
 .projectList {
-  border: 2px solid #ccc;
+  border: 2px solid #ea0c4f;
   padding: 20px;
   margin: 20px 0;
-  background-color: #ffffff;
+  background-color: #e605c835;
   box-sizing: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 .addProject h2{
   text-align: center;
 }
+
 .search-area h2{
   text-align: center;
 }
@@ -48,7 +49,7 @@ button {
 }
 
 .card {
-  background: white;
+  background: rgb(4, 221, 241);
   padding: 15px;
   margin: 10px 0;
   border-radius: 8px;
