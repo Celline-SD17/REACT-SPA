@@ -9,26 +9,15 @@
 3. Run the development server.
 - npm run dev
 4. Open the url provided in a browser.
-
 ## Project Structure
  src
-
 ├── components
-
 │  ├── SearchBar.jsx
-
 │ ├── ProjectForm.jsx
-
 │ ├── ProjectList.jsx
-
 │ └── ProjectCard.jsx
-
-│
-
 ├── App.jsx
-
 └── main.jsx
-
  public
 
 └── projects.json
@@ -47,3 +36,5 @@
 - React (Vite)
 - JavaScript
 - CSS
+## License
+- This project is for educational purposes.
